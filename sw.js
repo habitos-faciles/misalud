@@ -4,7 +4,7 @@
    - Librerías y tipografías externas (mapa Leaflet, Google Fonts): se guardan para que la app abra sin internet.
    - Todo lo demás (Google Forms/Sheets: registro, clave de acceso, VIP, ranking, consejo) NO se toca:
      pasa directo a internet, sin caché, para que la sincronización siempre lea datos frescos. */
-var VERSION = 'habitos-faciles-v27.0';
+var VERSION = 'habitos-faciles-v27.2';
 var CACHE_APP = VERSION + '-app';
 var CACHE_EXT = 'habitos-faciles-ext';
 var PRECACHE = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png', './apple-touch-icon.png'];
